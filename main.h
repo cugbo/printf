@@ -53,6 +53,10 @@ int flags, int width, int precision, int size);
 int print_percent(va_list types, char buffer[],
 int flags, int width, int precision, int size);
 
+/*******added thid 'write functions*******/
+int _putchar(char c);
+int _puts(char *str);
+
 /* Functions to print numbers */
 int print_int(va_list types, char buffer[],
 int flags, int width, int precision, int size);
